@@ -10,7 +10,7 @@ const UserImage = ({ image, size = "60px" }) => {
           borderRadius: "50%",
           height: "100%",
         }}
-        src={`http://localhost:3001/assets/${image}`}
+        src={`https://friends-4po8.onrender.com/assets/${image}`}
         alt="user"
       />
     </Box>
