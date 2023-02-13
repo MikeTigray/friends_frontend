@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://friends-4po8.onrender.com/users/${_id}/${friendId}`,
+      `https://friends-backend-np0u.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
