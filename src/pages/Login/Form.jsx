@@ -81,7 +81,7 @@ const Form = () => {
   const login = async (values, onSubmitProps) => {
     try {
       const loggedInResponse = await fetch(
-        "https://friends-4po8.onrender.com/auth/login",
+        "https://friends-backend-np0u.onrender.com/auth/login",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
