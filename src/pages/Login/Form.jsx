@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://friends-4po8.onrender.com/auth/register",
+      "https://friends-backend-np0u.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,

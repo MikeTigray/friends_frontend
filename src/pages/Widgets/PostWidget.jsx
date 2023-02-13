@@ -44,7 +44,7 @@ const PostWidget = ({
 
   const patchLike = async () => {
     const response = await fetch(
-      `https://friends-4po8.onrender.com/posts/${postId}/like`,
+      `https://friends-backend-np0u.onrender.com/posts/${postId}/like`,
       {
         method: "PATCH",
         headers: {
@@ -75,7 +75,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://friends-4po8.onrender.com/assets/${picturePath}`}
+          src={`https://friends-backend-np0u.onrender.com/assets/${picturePath}`}
         />
       )}
       {/* like section */}

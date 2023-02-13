@@ -16,7 +16,7 @@ function Profile() {
 
   const getUser = async () => {
     const response = await fetch(
-      `https://friends-4po8.onrender.com/users/${userId}`,
+      `https://friends-backend-np0u.onrender.com/users/${userId}`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
