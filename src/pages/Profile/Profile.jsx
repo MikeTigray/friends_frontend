@@ -11,6 +11,7 @@ import UserWidget from "pages/Widgets/UserWidget";
 function Profile() {
   const [user, setUser] = useState(null);
   const { userId } = useParams();
+
   const token = useSelector((state) => state.token);
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
